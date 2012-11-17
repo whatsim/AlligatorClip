@@ -1,4 +1,4 @@
-require('binderClip.js')
+var binderClip = require('binderClip.js')
 
 var c = {
 	baseurl : "/",

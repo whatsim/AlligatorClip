@@ -1,0 +1,11 @@
+doctype 5
+html(lang="en")
+	head
+		title=p.title
+	body
+		#content
+			h1 #{p.title}
+			#body
+				!{p.body}
+		#nav
+			!{nav[0].link}

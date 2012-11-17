@@ -1,5 +1,6 @@
 {
-	"title":"Test Article"
+	"title":"Test Article",
+	"subTheme":"page"
 }
 :body
 Test Article

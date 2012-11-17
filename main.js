@@ -1,7 +1,7 @@
 var binderClip = require('binderClip.js');
 
 var c = {
-	baseURL : "",
+	baseURL : "/o/",
 	title : "binderClip",
 	articlesPerPage : 3,
 	trimLength : -1,

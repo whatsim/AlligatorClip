@@ -2,11 +2,16 @@ doctype 5
 html(lang="en")
 	head
 		title=p.title
+		script(type="text/javascript",src="http://use.typekit.com/ojc7aad.js")
+		link(href="#{config.baseURL}styles/style.css",rel="stylesheet",type="text/css")
 	body
-		#content
-			h1 #{p.title}
+		#wrapper
+			.top
+			#logo
+			p.center.sub #{p.title}
 			#body
 				!{p.body}
-		ul#nav
-			each link in nav
-				li !{link.html}
+			.cap
+			ul#nav
+				each link in nav
+					li !{link.html}

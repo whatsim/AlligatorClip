@@ -2,10 +2,13 @@ doctype 5
 html(lang="en")
 	head
 		title=p.title
+		link(href="#{config.baseURL}styles/style.css",rel="stylesheet",type="text/css")
 	body
+		#logo
 		#content
 			h1 #{p.title}
 			#body
 				!{p.body}
-		#nav
-			!{nav[0].link}
+		ul#nav
+			each link in nav
+				li !{link.html}

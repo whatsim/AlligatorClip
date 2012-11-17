@@ -1,6 +1,5 @@
 {
-	"title":"About",
-	"subTheme":"page"
+	"title":"About"
 }
 
 :body
@@ -9,7 +8,7 @@
 
 So, BinderClip is my third content management system.
 
-The first, Bleedwrite was built around destroying any distinction between the site and administration, [its online here](http://bleedwrite.willruby.com/). When logged in it uses ContentEditable to make the whole site editable. It was fun, and very low barrier to making things, which was sort of the point, but like a gun without a safety, its sort of unwieldy, and to its detriment, its written in PHP, so at a certain point I abandoned all the back bits and just took the drag and drop and other code from the front that was worth hanging on to.
+The first, Bleedwrite was built around destroying any distinction between the public site and the admin panel, [its online here](http://bleedwrite.willruby.com/). When logged in it uses ContentEditable to make the whole site editable. It was fun, and very low barrier to making things, which was sort of the point, but like a gun without a safety, its sort of unwieldy, and to its detriment, its written in PHP, so at a certain point I abandoned all the back bits and just took the drag and drop and other code from the front that was worth keeping.
 
 The second is sort of three in one, I know doesn't that mean that BinderClip is my fifth? Well, not really, the next three shared a considerable amount of code and methodology, and were written concurrently for seperate projects. One is identitycms, which runs my portfolio on [www.willruby.com](http://www.willruby.com). The second is Ethic, my as yet unpublished and unused forumware that I wrote for my thesis project, documented I just realized nowhere, so I suppose I'll have to be adding that to the portfolio. The third is a CMS for elevator video art installations that I wrote for the agency I worked at at the time. These were built on node.js with mongodb backends, and [www.willruby.com](http://www.willruby.com) has been running without incident or intervention for the better part of a year.
 

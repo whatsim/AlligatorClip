@@ -5,7 +5,9 @@ var c = {
 	title : "binderClip",
 	articlesPerPage : 3,
 	trimLength : -1,
-	themeDir : "default"
+	themeDir : "default",
+	contentTypes : ['pages','sidebars', 'articles'],
 }
 
-binderClip.init(c).generate();
+//binderClip.init(c).generate();
+console.log(binderClip.init(c).getContentTree());

@@ -18,14 +18,14 @@
 }
 h2{
 	margin:10.5pt auto 26pt;
-    width:520px;
+    width:500px;
     font-size:20pt;
     line-height:150%;
     font-weight:100;
 }
 p {
     margin:10.5pt auto;
-    width:520px;
+    width:500px;
     font-size:12pt;
     line-height:150%;
 }
@@ -45,17 +45,17 @@ p {
 	padding: 0 21pt;
     border-bottom:1px dotted #222226;
     margin:10.5pt auto 0;
-    width:520px;
+    width:500px;
 }
 .cap {
     padding: 42pt 21pt 0;
     border-bottom:1px dotted #222226;
     margin:10.5pt auto 47.25pt;
-    width:520px;
+    width:500px;
 }
 #nav {
 	margin:0 auto 21pt;
-    width:520px;
+    width:500px;
     font-size:9pt;
     font-weight:100;
     line-height:133%;
@@ -72,4 +72,16 @@ p {
 #nav li {
 	display:inline-block;
 	margin:0 1px;
+}
+pre {
+	margin:21pt auto;
+    width:472px;
+    font-size:9pt;
+    line-height:150%;
+    overflow:auto;
+    background:#eeeeee;
+    word-wrap:normal;
+    padding:10.5pt;
+    border-radius: 5.25pt;
+	white-space:pre-wrap;
 }

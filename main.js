@@ -1,13 +1,13 @@
-var binderClip = require('binderClip.js');
+var alligatorClip = require('alligatorClip.js');
 
 var c = {
 	baseURL : "/o/",
-	title : "binderClip",
+	title : "alligatorClip",
 	articlesPerPage : 3,
 	trimLength : -1,
 	themeDir : "default",
 	contentTypes : ['pages','sidebars', 'articles'],
 }
 
-binderClip.init(c).watchMode();
-//console.log(binderClip.init(c).getContentTree());
+alligatorClip.init(c).watchMode();
+//console.log(alligatorClip.init(c).getContentTree());

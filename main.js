@@ -9,5 +9,5 @@ var c = {
 	contentTypes : ['pages','sidebars', 'articles'],
 }
 
-//binderClip.init(c).generate();
-console.log(binderClip.init(c).getContentTree());
+binderClip.init(c).watchMode();
+//console.log(binderClip.init(c).getContentTree());

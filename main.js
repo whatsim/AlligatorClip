@@ -9,5 +9,5 @@ var c = {
 	contentTypes : ['pages','sidebars', 'articles'],
 }
 
-alligatorClip.init(c).watchMode();
+alligatorClip.init(c).generate();
 //console.log(alligatorClip.init(c).getContentTree());

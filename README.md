@@ -1,1 +1,1 @@
-Requires node-markdown and jade to run. REALLY REALLY EARLY, it will parse, but is stupid about asset grabbing yet, and I haven't come up with a good way to do a site representation other than having a specific content type (pages) be architechtural. That is, pages are generated as pages.
+Requires node-markdown and jade to run. REALLY REALLY EARLY, it will parse, but is stupid about asset grabbing yet, and I haven't come up with a good way to do a site representation other than having a specific content type (pages) be architectural. That is, pages are generated as pages.
